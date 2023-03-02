@@ -1,0 +1,86 @@
+/* PANEL */
+.panel-container {
+  display: flex;
+  width: 875px;
+  color: #fff;
+  background: #5a5a5a;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: 0 0.5em;
+}
+
+.panel-section {
+  display: flex;
+}
+
+.name-section {
+  padding: 1px 32px;
+}
+
+.barra-section {
+  font-weight: 100;
+}
+
+.name-section-enlace {
+  text-decoration: none;
+  color: #fff;
+}
+
+.name-section-enlace:hover {
+  color: #71AAFF;
+}
+
+.desactivado {
+  color: #969696;
+}
+
+.desactivado:hover {
+  color: #646464;
+}
+
+/* CHAT */
+
+.chat-container {
+  background: #5a5a5a;
+  height: 57px;
+  padding: 0.5em;
+  border-radius: 11px;
+  margin: 0 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.svg-chat {
+  padding: 0.3em 0em 0em 0em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.area-text {
+  width: 141px;
+}
+
+.padding-svg {
+  padding: 0 0 0.3em 0.4em;
+    font-size: 52px;
+}
+
+.svg-chat-icon {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.svg-chat-icon:hover {
+  transform: scale(0.6);
+}
+
+/* MENU */
+
+/* NAVBAR */
+.container-Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 0em 0;
+}
