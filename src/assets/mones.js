@@ -1102,7 +1102,7 @@ export const mones = [
     name: "Seaflow",
     type: "ice",
     stats: {
-      life: 220,
+      life: 230,
       attack: 70,
       energy: 25,
       recovery: 15,
@@ -1117,19 +1117,128 @@ export const mones = [
   },
   {
     id: 63,
-    name: "",
-    type: "ice",
+    name: "Spark",
+    type: "electryce",
     stats: {
-      life: 220,
-      attack: 70,
-      energy: 25,
-      recovery: 15,
+      life: 200,
+      attack: 80,
+      energy: 30,
+      recovery: 30,
       defense: 10,
     },
     description: "",
     rarity: "orange",
-    image: "",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB2B68FlLaPC6dsUO_Kqf9ZY30nx2CZpRGXAwGqf-46btvmMiRTsAQB_DxulUrsf1MXnP9w0_Rk8zc4X1dxvfGsZmfQHKS_hliTcg-8hvFI52Q6PMirig3un1uptXK3xSgNyewY4Xt9fBiZZNZGhx476T6FJR-IaraLQgtGTjQ1SXX9akHIkXD6wIqzaSzzw2MrPS3kFopPiwVFGyB0TxF4ca_HY8gDn3djvC-jp33VfQVMRqcUattrzZTdhM2xyWSER3_IWvUybA7OGI46K82l0aNfp3jl8SOPazLJp87osLck1OHLWge3kY5v8gN94kXP6WmqfQzMwuX19gRpPt6Hscv-ZpKoH7G3bZzZF0IzmgUHbzZQlVJUkyGfA0L1xtDA/p.png",
     imageBack:
-      "https://previews.dropbox.com/p/thumb/AB36Iwe9P8plGTCWdcQ4TzhVIbh-z45-6OQDDFG70Spjgeeu_NExsNIcXftx9k0DfN-xSALmHKu0Wyd9Gsp9AQoOaWVHlu4ImZgqzY7F5_DHnOZT9dkjymkZbIrHMW3qm3SwNaC50Q5bUufvswVw03zogR1khCV4dM0C2B5iQ08u3Q6em3qlRpG9UsbRbF0Nedrp1K62IyQ_h1DBFBkCGHEEM7mEdrNLty9xmZxLfu5Kk14-ITGJLHoZm4JSNt0sVHiBqUnMXIF9qumo6jAlAuocK2N7jpTT9ZJ_Ey01TkSzv4u9jjY1LVOhEgwQsWOD7X0l13Bz-mUVR83T1wpjshIly5mmD63pqcVmT12OoI1IMuoFBP0ih-3C-J15RIRysF0/p.png",
+      "https://previews.dropbox.com/p/thumb/AB1a479pZuJzpeIXh-9--UQx2RqjXG51LPcCaO_wvsT0e_XMW794MjzPIy6UZ1ggkAj-jJ6utaNxpkhH0mhOnPt7jYtGpCEgo_x-GmhuKhCxgNQI2BWerHfSss6o1An71FhmfIZxc_0r7ESwD70jSmo7gsQ4-TJS7og0Do0bBnatMFpflXN10kibNzMohZTcZCb23IHbX4tj_K8ZZ76OEyc45SN6yKzuxRhfcnEP1Div5Nz0S0q8bbTHHJQH2mvRBWI9u7kZMIhqx3uLrokRTUkAC191vtEHQ57S-JSr9WlACijs9zIREQzino60xTn7mTtpBTyR_rIyowx-7tYcj6FrLOcMVlNPnM8vul1QI84LaTW70pRinblQaIXx6QqSD8M/p.png",
+  },
+  {
+    id: 64,
+    name: "Splashy",
+    type: "water",
+    stats: {
+      life: 250,
+      attack: 70,
+      energy: 20,
+      recovery: 10,
+      defense: 0,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB1I_UO2WM2HvXMBhMwBl3cwrUovQdc3GUYvhBqczAtrFF5Q4frh9ra0gj_evVc2uhxmC6reQeIsTNxbxmLWguGEoH6IdYmWzwD_iOxjYZcpxJnCgBAag66OHY58qRDefY4TvxaaGi_nOV1A-3vcvnqKDwkQrRTIXV0OMJis76Rt9n7gVkfxbgWKSmrQhsfg2DME7Mn2CR0Uefuk-cZ2k5hOiFdR2Xbrmjeu78FBHv5KoCjXiLaHiDrjCATQtj0nkuah2fLYzHzCXtbQxr7ULoJwg0YKX0hiEOAdANZqdCW8ZEDds4kc1q1kFYopRLfb4BOwBPBnGfPtxitGOX2JO2tr7zHg9Fr-RSweet9MZEYi3IlSSR8qJ-M5rRm4s8eDNWQ/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB2P3TU5TwsQomY7whIwGVhKLXNorAaOVNkgE81CbopXx4cjYdgBwFnbCuihGhZH4znDGa7Wlq4XddMaWPk8s2pwbPS7NntvEkwsLCek6Yf3vNy0SM2GvwJ4f4o40TXQcFIZemjuak0Bp00LUv5W0FM4hngFId8r91Vlu1sCxS3ELUD__n0A529aZB5KCuPkL7U2Pg4R3eVcnL0N7yZrkdwY08MsApUxX9xEAoiq_I0q74z4RvBEeIAzdzKlJ3sS3cfAMjYXOaob1T13K-OmtC6OT11o9XlyKhyC6jhUf3_Fzy-yckTWNoBbtbEG6yjsm6_rvdpIxgI7uUuAgBFfHFHe-yO3ZZEIyA4ajIG_xauWpUTd4l8SWL5737rAoF95ECc/p.png",
+  },
+  {
+    id: 65,
+    name: "Splash",
+    type: "water",
+    stats: {
+      life: 250,
+      attack: 80,
+      energy: 10,
+      recovery: 10,
+      defense: 0,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB0jAKG5i4lNZxkYEVRBvZgwyGocetJrQWr1-Ba_Yot1-0ruO38zHBnXUPXLUNHbRoC_dyu9RSCdTH0zsU4Lujv0rI3iWRTzw4Y_zZXJzW6bkxmfwN0_7BKdoH5m4HCboRc-fGLRLnMfIUWp4BgXW355MM9A5msjjVsTihO98xvqze70Fz8wF8kdKdSOT3pIYgGFKiSyB8Lo_eki4qw2fpMcG5wdS8IQtYajfvy6NGqc5rLnUILrWT1ZhAiY8lJgO2JLLSSvoeJwWADg7B1npuvkwEuxS3pJKGgX244TVzhagZB1HOt_TbSfRbLMOku-H2UkVnnSBEFSTb3KkRqxvs9TokqwBUeZZtV3JU-WUyEzMdNNj314_qZrjA2sGm7op_k/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB2P3TU5TwsQomY7whIwGVhKLXNorAaOVNkgE81CbopXx4cjYdgBwFnbCuihGhZH4znDGa7Wlq4XddMaWPk8s2pwbPS7NntvEkwsLCek6Yf3vNy0SM2GvwJ4f4o40TXQcFIZemjuak0Bp00LUv5W0FM4hngFId8r91Vlu1sCxS3ELUD__n0A529aZB5KCuPkL7U2Pg4R3eVcnL0N7yZrkdwY08MsApUxX9xEAoiq_I0q74z4RvBEeIAzdzKlJ3sS3cfAMjYXOaob1T13K-OmtC6OT11o9XlyKhyC6jhUf3_Fzy-yckTWNoBbtbEG6yjsm6_rvdpIxgI7uUuAgBFfHFHe-yO3ZZEIyA4ajIG_xauWpUTd4l8SWL5737rAoF95ECc/p.png",
+  },
+  {
+    id: 66,
+    name: "Waterlope",
+    type: "water",
+    stats: {
+      life: 200,
+      attack: 90,
+      energy: 30,
+      recovery: 20,
+      defense: 10,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB2sYKlg1r1MRaPej_U8rpuvaFQUrq_met1I0o60bfyIxKnECcBdxgNqsNc7Uf_fu6TwG4KXXr9ZMuQxBHgB0qJz9DOIVwRnzPKmeO0WIfnucIEPGhOtLuUkC3bCgcbVj8HjRvntBvq-5rt62BmTSPeOQF0mLJBPWn6MFJTqxWxWlBiNG6WcHN6X1fa2aJheVtykrGjKpP7ZbjNXVSLxdY8oxfTICQKvQGb1D5kACw7CeNUfbPPcLftWLAL9tJYtGz7U02gtQdgH95GvvmFhKaDgGv19Qus0HUm45whKsXi3X6cZuYcXtfaw01MLnYYpvvbfwVMeIJ05tPA5Bpa4alZsrv0EViZAdVL7s5md80Hzlic6fXy8weqkDyZdTpjJOag/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB2P3TU5TwsQomY7whIwGVhKLXNorAaOVNkgE81CbopXx4cjYdgBwFnbCuihGhZH4znDGa7Wlq4XddMaWPk8s2pwbPS7NntvEkwsLCek6Yf3vNy0SM2GvwJ4f4o40TXQcFIZemjuak0Bp00LUv5W0FM4hngFId8r91Vlu1sCxS3ELUD__n0A529aZB5KCuPkL7U2Pg4R3eVcnL0N7yZrkdwY08MsApUxX9xEAoiq_I0q74z4RvBEeIAzdzKlJ3sS3cfAMjYXOaob1T13K-OmtC6OT11o9XlyKhyC6jhUf3_Fzy-yckTWNoBbtbEG6yjsm6_rvdpIxgI7uUuAgBFfHFHe-yO3ZZEIyA4ajIG_xauWpUTd4l8SWL5737rAoF95ECc/p.png",
+  },
+  {
+    id: 67,
+    name: "Reycan",
+    type: "fire",
+    stats: {
+      life: 200,
+      attack: 90,
+      energy: 20,
+      recovery: 20,
+      defense: 20,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB1sttSBQeuZx6FHQAiN85s31AxmgFoJt9604IKYD9kNgHnqIIhmCUHsPMi6aPb4qgNXCcqYRhiFRxQDRQ_rbOYxAYhUlmH1nR_tUchPDajn3JMyaWHVReysUOamwMK-eGPfP3-FastwwqaxmZQyGDIZaW7Yom5GeR6bjhTfTJ0U7UXyiaGTyWrRT5ry7MieNyy5iE-eCl3WC8y1BEUukEWey6WZ5wYlu9S6-ZFGuQYhm5Q-OEPMaq_Wyih240-zeg1D0o5VnUuXCG4sCp9Y4Gy3Xfuz9IdeOn5y1WzLfLsA4aJvWRLOGogwkjDXAp3OH8kh4M-QMKT-biOd1rmxNKNVZBiooZpyPPWRG5Bj2QBC8QwJIat9ZlFLHd7Cy49jSFg/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB1Mdn5tnOjSeEJ5pzdapKKljeHGhHweh-ZbFebgvLKiAWL502WKyPTNlXNDs8nZF21AHLMnvZoRNjwh6Sn-6Cc40n9udqDFTOZD66XdgXjOO8JimM9zhBTjsn9KKXYlwKRUMKBVRugSSyNUztLB6G0vrRfr6EsWgQLnibohCvr60a45uaVWWxkQg8Spl9dpYgIskozFfWFQKtjw2VJxOOJ4tW2juRu2L0Nmp-pRrmpii17eo4aJ-wFYSyQVdwiC99np41sFlsIczgnKrbQTI0HJorSno1VRv-EtbJa5nNY0k8rbNCaH_K16wFVm6HhehHgmDlev2P6nKfIkIaTI1EW5bIkN7MQWy2BcQdtROkKBQ7VnSeI2mqGqJ3UmUaXe3RM/p.png",
+  },
+  {
+    id: 68,
+    name: "Pyramoon",
+    type: "fire",
+    stats: {
+      life: 220,
+      attack: 90,
+      energy: 20,
+      recovery: 20,
+      defense: 0,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB2vlW7_sU4QpUmOaJJR6Gbx0c1XEueq9cSlKStjOs3rmDpacnGq67i3C2WLar4QYJR_8tcssFg_LcyhMirEPJ3N6EX3jGpuVaVR9w1Jh58poc7-HrKcZpTE8527OecSOGwWlzmofAvO1VkaongEBYhrXRXYvwZKcfW6GKZ2Jhe8Jp0YogG6CEqi2SALkSisIOpPkl74yPmMeJq1l38FmKkMlSgjV7lJOw0C87MeA6HzZq5NThVHNPuNUN9YMpu8wUlD8nFgAizfJcpfDKeuu2gCzb5kfYFmpuPxearlGJP7UBSiiTmO4Gbi2X3bWMkPID6W3-PWcUghV0Mv_4JUQK7MBNDaLiU36qTygv-Bh4Rbc0geJJfZg8acwDHJ15VmpDM/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB1Mdn5tnOjSeEJ5pzdapKKljeHGhHweh-ZbFebgvLKiAWL502WKyPTNlXNDs8nZF21AHLMnvZoRNjwh6Sn-6Cc40n9udqDFTOZD66XdgXjOO8JimM9zhBTjsn9KKXYlwKRUMKBVRugSSyNUztLB6G0vrRfr6EsWgQLnibohCvr60a45uaVWWxkQg8Spl9dpYgIskozFfWFQKtjw2VJxOOJ4tW2juRu2L0Nmp-pRrmpii17eo4aJ-wFYSyQVdwiC99np41sFlsIczgnKrbQTI0HJorSno1VRv-EtbJa5nNY0k8rbNCaH_K16wFVm6HhehHgmDlev2P6nKfIkIaTI1EW5bIkN7MQWy2BcQdtROkKBQ7VnSeI2mqGqJ3UmUaXe3RM/p.png",
+  },
+  {
+    id: 69,
+    name: "Aptenofénix",
+    type: "fire",
+    stats: {
+      life: 200,
+      attack: 90,
+      energy: 30,
+      recovery: 30,
+      defense: 0,
+    },
+    description: "",
+    rarity: "orange",
+    image:
+      "https://previews.dropbox.com/p/thumb/AB1r3qot9OMlB6PPLlt2NHROl0Z2rqEl69tuXKhHWVqvJV-RyTIibFdlInStkjp6Iyws6XYVFu3FJzVcLa-Eg86kIvweO4rnAjtQ4jXBFZxs7FsouyQFBJPBJV2iMMZmK76Q3buKu5Vw0_kkWwsYFbwq1POt8R9KxZf_xDcHxrTLlIDQVnwk4GgMS8cdVdZAIe6yAegs90SMNnUr_yxf6Um3_THaIQ0-E0K87Lw4LHzMZZ2vTMs1YHBusH8BqoYsJ6UH-Q5eFZZmG41q3Ow6FL6XwZpfBLCkBJY44JENT7T2Oh5WmK3CWl9vESZTgR0XjZqOTHGjHTgd6louwZq8nbVKHdOfYn_bHsHJHSxCQxLy2gWcq096sTu78pkAAVQMrNs/p.png",
+    imageBack:
+      "https://previews.dropbox.com/p/thumb/AB1Mdn5tnOjSeEJ5pzdapKKljeHGhHweh-ZbFebgvLKiAWL502WKyPTNlXNDs8nZF21AHLMnvZoRNjwh6Sn-6Cc40n9udqDFTOZD66XdgXjOO8JimM9zhBTjsn9KKXYlwKRUMKBVRugSSyNUztLB6G0vrRfr6EsWgQLnibohCvr60a45uaVWWxkQg8Spl9dpYgIskozFfWFQKtjw2VJxOOJ4tW2juRu2L0Nmp-pRrmpii17eo4aJ-wFYSyQVdwiC99np41sFlsIczgnKrbQTI0HJorSno1VRv-EtbJa5nNY0k8rbNCaH_K16wFVm6HhehHgmDlev2P6nKfIkIaTI1EW5bIkN7MQWy2BcQdtROkKBQ7VnSeI2mqGqJ3UmUaXe3RM/p.png",
   },
 ];
