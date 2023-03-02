@@ -1,16 +1,29 @@
-
 :root {
-    --firs-color: linear-gradient(155.36deg, #FF9900 2.14%, rgba(255, 224, 163, 0.69) 100%, #FFE0A3 100%); 
+  --firs-color: linear-gradient(
+    155.36deg,
+    #ff9900 2.14%,
+    rgba(255, 224, 163, 0.69) 100%,
+    #ffe0a3 100%
+  );
 }
 
 body {
-  background-image: linear-gradient(135deg, #0087D4, #505488, #2F3F80, #161569, #5A4894, #A950A1, #FF7CAE);
+  background-image: linear-gradient(
+    135deg,
+    #0087d4,
+    #505488,
+    #2f3f80,
+    #161569,
+    #5a4894,
+    #a950a1,
+    #ff7cae
+  );
   background-size: 500%;
   animation: fanimado 10s infinite;
 }
 
 @keyframes fanimado {
-  0%{
+  0% {
     background-position: 0% 50%;
   }
   50% {
@@ -23,72 +36,82 @@ body {
 
 /* catalogo-card */
 .flip-card {
-    background-color: transparent;
-    width: 190px;
-    height: 254px;
-    perspective: 1000px;
-    font-family: sans-serif;
-  }
-  
-  .title {
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+  background-color: transparent;
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
 
-  .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid coral;
-    border-radius: 1rem;
-  }
-  
-  .flip-card-front {
-    background: var(--firs-color);
-    padding: 19px 5px;
-  }
-  
-  .flip-card-back {
-    background: var(--firs-color);
-    padding: 19px 7px;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
 
-  .puchamon-img{
-    border-radius: 13px;
-    cursor: pointer;
-  }
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
-  .puchamon-img-contend {
-    margin: 3em 1em;
-  }
-  /* catalogo */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
-  .catalogo-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0em 4em 4em 4em;
-  }
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid coral;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: var(--firs-color);
+  padding: 19px 5px;
+}
+
+.flip-card-back {
+  background: var(--firs-color);
+  padding: 19px 7px;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.puchamon-img {
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.puchamon-img-contend {
+  margin: 3em 1em;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: 900;
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* catalogo */
+
+.catalogo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0em 4em 4em 4em;
+}

@@ -1045,7 +1045,7 @@ export const mones = [
   },
   {
     id: 59,
-    name: "dragonburner",
+    name: "Dragonburner",
     type: "rock",
     stats: {
       life: 180,

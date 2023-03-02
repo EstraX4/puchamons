@@ -26,6 +26,7 @@ export default function Card({ mon }) {
               alt=""
               srcset=""
             />
+            <p class="title">{mon.name}</p>
           </div>
         </div>
       </div>
