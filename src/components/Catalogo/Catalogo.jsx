@@ -6,7 +6,7 @@ export default function Catalogo() {
   return (
     <div className='catalogo-container'>
         {mones.map((mon) =>(
-            <Card mon={mon}/>
+            <Card key={mon.id} mon={mon}/>
         ))}
     </div>
   )
