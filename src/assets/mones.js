@@ -934,7 +934,7 @@ export const mones = [
     image:
       "https://www.dropbox.com/s/ksy19wi9ar890c1/Flamme.png?raw=1",
     imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1gh36sektxBQJGAEefVdR9-DTn4ZL5Jl8_Zb3tso/p.png",
+      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
   },
   {
     id: 53,
