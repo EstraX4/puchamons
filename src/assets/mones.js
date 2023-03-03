@@ -248,9 +248,9 @@ export const mones = [
     description: "",
     rarity: "blue",
     image:
-      "https://www.dropbox.com/s/za8u2cxndp9w5l2/Glacier.png?raw=1",
+      "https://www.dropbox.com/s/z8kzdr4p8nd59hh/Chimpyro.png?raw=1",
     imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
   },
   {
     id: 15,
@@ -452,8 +452,8 @@ export const mones = [
   },
   {
     id: 26,
-    name: "Metalpaw",
-    type: "plant",
+    name: "Firebunny",
+    type: "fire",
     stats: {
       life: 150,
       attack: 70,
@@ -464,9 +464,9 @@ export const mones = [
     description: "",
     rarity: "purple",
     image:
-      "https://www.dropbox.com/s/p3mgux00gzltvkn/Metalpaw.png?raw=1",
+      "https://www.dropbox.com/s/lve6yb8mst5h0hx/Firebunny.png?raw=1",
     imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
   },
   {
     id: 27,
