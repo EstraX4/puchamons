@@ -13,7 +13,22 @@ export default function Router() {
       children: [
         { element: <Inicio />, index: true },
         { path: "catologue", element: <Catolegue /> },
-        { path: "datos", element: <Datos /> },
+      ],
+    },
+    {
+      path: "/datos",
+      element: <Layaut />,
+      children: [
+        { element: <Datos />, index: true },
+        { path: "/datos/:id", element: <Datos /> },
+      ],
+    },
+    {
+      element: <Layaut />,
+      children: [
+        { element: <Inicio />, index: true },
+        { path: "404", element: <Inicio /> },
+        { path: "*", element: <Navigate to="/404" /> },
       ],
     },
     {
