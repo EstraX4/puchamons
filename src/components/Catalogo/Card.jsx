@@ -11,14 +11,14 @@ export default function Card({ mon }) {
             <div className={`flip-card-front ${mon.rarity}`}>
               <img
                 className="puchamon-img"
-                srcset={mon.image}
+                srcSet={mon.image}
                 alt="front-img"
               />
             </div>
             <div className={`flip-card-back ${mon.rarity}`}>
               <img
                 className="puchamon-img"
-                srcset={mon.imageBack}
+                srcSet={mon.imageBack}
                 alt="back-img"
               />
               <p className="title">{mon.name}</p>
