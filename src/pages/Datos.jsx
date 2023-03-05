@@ -58,51 +58,68 @@ export default function Datos() {
       </div>
       <div className="content-panel-data">
         <div className="content-text-panel-data">
-          <h1 className="name-panel">{puchamon.name}</h1>
+          <h1 className={`name-panel text-${puchamon.rarity}`}>
+            {puchamon.name}
+          </h1>
         </div>
         <div className="content-bar-data">
           <div className="content-data">
+            <h1 className="content-data-prev">LIF</h1>
             <div className="bar-data">
               <div
                 className="barra-datos-life"
                 style={{ width: `${puchamon?.stats?.life / 5}%` }}
               ></div>
             </div>
+            <h1 className="content-data-name">{puchamon?.stats?.life}</h1>
           </div>
           <div className="content-data">
+            <h1 className="content-data-prev">ATK</h1>
             <div className="bar-data">
               <div
                 className="barra-datos-attack"
                 style={{ width: `${puchamon?.stats?.attack / 5}%` }}
               ></div>
             </div>
+            <h1 className="content-data-name">{puchamon?.stats?.attack}</h1>
           </div>
           <div className="content-data">
+            <h1 className="content-data-prev">REC</h1>
             <div className="bar-data">
               <div
                 className="barra-datos-recovery"
                 style={{ width: `${puchamon?.stats?.recovery / 5}%` }}
               ></div>
             </div>
+            <h1 className="content-data-name">{puchamon?.stats?.recovery}</h1>
           </div>
           <div className="content-data">
+            <h1 className="content-data-prev">ENR</h1>
             <div className="bar-data">
               <div
                 className="barra-datos-energy"
                 style={{ width: `${puchamon?.stats?.energy / 5}%` }}
               ></div>
             </div>
+            <h1 className="content-data-name">{puchamon?.stats?.energy}</h1>
           </div>
           <div className="content-data">
+            <h1 className="content-data-prev">DEF</h1>
             <div className="bar-data">
               <div
                 className="barra-datos-defense"
                 style={{ width: `${puchamon?.stats?.defense / 5}%` }}
               ></div>
             </div>
+            <h1 className="content-data-name">{puchamon?.stats?.defense}</h1>
           </div>
         </div>
+        <div className="content-descAelement">
+        <h1 className="description">{puchamon.description}</h1>
+        <img  className="element" src={puchamon.iconElement} alt="element" srcset={puchamon.iconElement} />
       </div>
+      </div>
+      
     </div>
   );
 }

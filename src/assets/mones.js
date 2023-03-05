@@ -1,4 +1,3 @@
-
 export const mones = [
   {
     id: 1,
@@ -11,12 +10,12 @@ export const mones = [
       recovery: 5,
       defense: 0,
     },
-    description: "",
+    description:
+      "Polirobo es capaz de generar electricidad a partir de su batería interna, lo que le permite lanzar potentes descargas eléctricas contra sus enemigos. También puede disparar pequeñas bolas de fuego desde su boca, lo que lo convierte en un rival formidable en combate. A pesar de su aspecto mecánico, Polirobo es muy leal y amistoso, y suele formar vínculos estrechos con sus entrenadores.",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/ccgncpm2c8syhfo/Polirobo.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/ccgncpm2c8syhfo/Polirobo.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 2,
@@ -29,12 +28,11 @@ export const mones = [
       recovery: 5,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/91ddpiiikaksv48/Porkyrisa.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/91ddpiiikaksv48/Porkyrisa.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 3,
@@ -47,12 +45,11 @@ export const mones = [
       recovery: 10,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/181ote8cplb9cpm/Gelizaurio.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/181ote8cplb9cpm/Gelizaurio.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 4,
@@ -65,12 +62,11 @@ export const mones = [
       recovery: 5,
       defense: 5,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/sh0uugtos3yt1em/Volt.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    image: "https://www.dropbox.com/s/sh0uugtos3yt1em/Volt.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m49e2a7n2wj8ard/Electric.png?raw=1",
   },
   {
     id: 5,
@@ -83,12 +79,11 @@ export const mones = [
       recovery: 5,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/52nlrrmc9r2353e/Hidroevaprima.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/52nlrrmc9r2353e/Hidroevaprima.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 6,
@@ -101,12 +96,11 @@ export const mones = [
       recovery: 5,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "green",
-    image:
-      "https://www.dropbox.com/s/jtlhgt2yxkchn3k/Pyrostilo.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/jtlhgt2yxkchn3k/Pyrostilo.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 7,
@@ -119,12 +113,11 @@ export const mones = [
       recovery: 5,
       defense: 5,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/1n3r6umrbwrr0sc/Petalot.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/1n3r6umrbwrr0sc/Petalot.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 8,
@@ -137,12 +130,11 @@ export const mones = [
       recovery: 10,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/kdc5ldjqbhvkqjs/Aquamouso.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/kdc5ldjqbhvkqjs/Aquamouso.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 9,
@@ -155,12 +147,11 @@ export const mones = [
       recovery: 5,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/8of58n84te08udh/Caluroso.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/8of58n84te08udh/Caluroso.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 10,
@@ -173,12 +164,11 @@ export const mones = [
       recovery: 15,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/a6yecazwkjh28ta/Cegriam.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/a6yecazwkjh28ta/Cegriam.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 11,
@@ -191,12 +181,11 @@ export const mones = [
       recovery: 10,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/qqb5ayal29xtaoi/Rosibear.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/qqb5ayal29xtaoi/Rosibear.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 12,
@@ -209,12 +198,11 @@ export const mones = [
       recovery: 20,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/mm8o09vk8j6krka/Eggbot.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/mm8o09vk8j6krka/Eggbot.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 13,
@@ -227,12 +215,11 @@ export const mones = [
       recovery: 10,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/za8u2cxndp9w5l2/Glacier.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/za8u2cxndp9w5l2/Glacier.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 14,
@@ -245,12 +232,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/z8kzdr4p8nd59hh/Chimpyro.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/z8kzdr4p8nd59hh/Chimpyro.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 15,
@@ -263,12 +249,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/h79idnvh7b9ftnb/Blazeon.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/h79idnvh7b9ftnb/Blazeon.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 16,
@@ -281,12 +266,11 @@ export const mones = [
       recovery: 5,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/typgijixw8xbmb3/Aquafluent.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/typgijixw8xbmb3/Aquafluent.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 17,
@@ -299,12 +283,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/dt313btdf6kav6y/Aquadict.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/dt313btdf6kav6y/Aquadict.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 18,
@@ -317,12 +300,11 @@ export const mones = [
       recovery: 15,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/5dmx81hlha8io60/Aquatrot.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/5dmx81hlha8io60/Aquatrot.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 19,
@@ -335,12 +317,11 @@ export const mones = [
       recovery: 10,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/mvk90id9m94803m/Flamegon.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/mvk90id9m94803m/Flamegon.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 20,
@@ -353,12 +334,11 @@ export const mones = [
       recovery: 5,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/uaj6618jtv803ee/Flamewhisk.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/uaj6618jtv803ee/Flamewhisk.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 21,
@@ -371,12 +351,11 @@ export const mones = [
       recovery: 15,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/h67ywf4iyekt758/Flamenbreath.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/h67ywf4iyekt758/Flamenbreath.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 22,
@@ -389,12 +368,11 @@ export const mones = [
       recovery: 20,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "blue",
-    image:
-      "https://www.dropbox.com/s/5elpcm210f6gek4/Frostshell.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/5elpcm210f6gek4/Frostshell.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 23,
@@ -407,12 +385,11 @@ export const mones = [
       recovery: 5,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/1y6ckaau4b6vu0g/Sniffur.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/1y6ckaau4b6vu0g/Sniffur.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 24,
@@ -425,12 +402,11 @@ export const mones = [
       recovery: 30,
       defense: 25,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/n8aqibyqht1mevo/Metarodent.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/n8aqibyqht1mevo/Metarodent.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 25,
@@ -443,12 +419,11 @@ export const mones = [
       recovery: 20,
       defense: 35,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/p3mgux00gzltvkn/Metalpaw.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/p3mgux00gzltvkn/Metalpaw.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 26,
@@ -461,12 +436,11 @@ export const mones = [
       recovery: 20,
       defense: 25,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/lve6yb8mst5h0hx/Firebunny.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/lve6yb8mst5h0hx/Firebunny.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 27,
@@ -479,12 +453,11 @@ export const mones = [
       recovery: 20,
       defense: 40,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/r64rip01w3yl7ba/Armorodent.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/r64rip01w3yl7ba/Armorodent.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 28,
@@ -497,12 +470,11 @@ export const mones = [
       recovery: 20,
       defense: 40,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ck4tcouqe7klpfr/Blastboulder.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/ck4tcouqe7klpfr/Blastboulder.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 29,
@@ -515,12 +487,11 @@ export const mones = [
       recovery: 20,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/vjltv1b7ndhmqnv/Slyzard.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/vjltv1b7ndhmqnv/Slyzard.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 30,
@@ -533,12 +504,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/io3wqeu1lt04t3x/Lopsie.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/io3wqeu1lt04t3x/Lopsie.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 31,
@@ -551,12 +521,11 @@ export const mones = [
       recovery: 15,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ooxbequtuus2xpb/Froscorn.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/ooxbequtuus2xpb/Froscorn.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 32,
@@ -569,12 +538,11 @@ export const mones = [
       recovery: 25,
       defense: 40,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/62rkypq1u5euua6/Gleecicle.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/62rkypq1u5euua6/Gleecicle.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 33,
@@ -587,12 +555,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/xgu4p6x6vqq9942/Glacior.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/xgu4p6x6vqq9942/Glacior.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 34,
@@ -605,12 +572,11 @@ export const mones = [
       recovery: 30,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/xjljyz4vujt28b6/Frostbite.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/xjljyz4vujt28b6/Frostbite.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 35,
@@ -623,12 +589,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ukray83lq7mqh1n/Icethorns.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/ukray83lq7mqh1n/Icethorns.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 36,
@@ -641,12 +606,11 @@ export const mones = [
       recovery: 20,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ipr9xee42zr11dw/Ironclaw.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/ipr9xee42zr11dw/Ironclaw.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 37,
@@ -659,12 +623,11 @@ export const mones = [
       recovery: 20,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/3nbf7werw234iin/Tecolotl.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    image: "https://www.dropbox.com/s/3nbf7werw234iin/Tecolotl.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m49e2a7n2wj8ard/Electric.png?raw=1",
   },
   {
     id: 38,
@@ -677,12 +640,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/0gphl6eq6ap091l/Aurora.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    image: "https://www.dropbox.com/s/0gphl6eq6ap091l/Aurora.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m49e2a7n2wj8ard/Electric.png?raw=1",
   },
   {
     id: 39,
@@ -695,12 +657,11 @@ export const mones = [
       recovery: 40,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/yjtqq1zmdyu3zdj/Mentix.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    image: "https://www.dropbox.com/s/yjtqq1zmdyu3zdj/Mentix.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m49e2a7n2wj8ard/Electric.png?raw=1",
   },
   {
     id: 40,
@@ -713,12 +674,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ipaiytyjn4yvcjl/Aquaquio.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/ipaiytyjn4yvcjl/Aquaquio.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 41,
@@ -731,12 +691,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/m957onf6kovfegy/Fluyente.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/m957onf6kovfegy/Fluyente.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 42,
@@ -749,12 +708,11 @@ export const mones = [
       recovery: 30,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/a3gkmtrghiojc5j/Hydrogo.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/a3gkmtrghiojc5j/Hydrogo.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 43,
@@ -767,12 +725,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/2daax389wig35z6/Risoslime.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/2daax389wig35z6/Risoslime.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 44,
@@ -785,12 +742,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/bz08oe5wyanff28/Rosie.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/bz08oe5wyanff28/Rosie.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 45,
@@ -803,12 +759,11 @@ export const mones = [
       recovery: 40,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/wusy0iepq5atna0/Surfino.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/wusy0iepq5atna0/Surfino.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 46,
@@ -821,12 +776,11 @@ export const mones = [
       recovery: 40,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/uxh2ni41rnz9v38/Naeo.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/uxh2ni41rnz9v38/Naeo.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 47,
@@ -839,12 +793,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/6rv9g5ww2eh99b6/Aguafiel.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/6rv9g5ww2eh99b6/Aguafiel.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 48,
@@ -857,12 +810,11 @@ export const mones = [
       recovery: 20,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/4qkqc36ietucqy0/Resistant.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/4qkqc36ietucqy0/Resistant.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 49,
@@ -875,12 +827,11 @@ export const mones = [
       recovery: 20,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/a31fpnabidvazkp/Boned.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/a31fpnabidvazkp/Boned.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 50,
@@ -893,12 +844,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/24szqbku4zi36wl/Ignirat.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/24szqbku4zi36wl/Ignirat.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 51,
@@ -911,12 +861,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/5vcuj2mvvi5e3zq/Flamdrake.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/5vcuj2mvvi5e3zq/Flamdrake.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 52,
@@ -929,12 +878,11 @@ export const mones = [
       recovery: 15,
       defense: 25,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/ksy19wi9ar890c1/Flamme.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/ksy19wi9ar890c1/Flamme.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 53,
@@ -947,12 +895,11 @@ export const mones = [
       recovery: 30,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/rrokl69gi0b4wcg/Flam%C3%ADgero.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/rrokl69gi0b4wcg/Flam%C3%ADgero.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 54,
@@ -965,12 +912,11 @@ export const mones = [
       recovery: 30,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/u6bmknp4tnoaesi/Chispas.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/u6bmknp4tnoaesi/Chispas.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 55,
@@ -983,12 +929,11 @@ export const mones = [
       recovery: 30,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/o23rach6gdzifrx/Criomante.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/o23rach6gdzifrx/Criomante.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 56,
@@ -1001,12 +946,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "purple",
-    image:
-      "https://www.dropbox.com/s/qrb8xznxp6yv51v/Wildfire.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/qrb8xznxp6yv51v/Wildfire.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 57,
@@ -1019,12 +963,11 @@ export const mones = [
       recovery: 15,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/k21udk3ddgdkhok/Koda.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/k21udk3ddgdkhok/Koda.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 58,
@@ -1037,12 +980,11 @@ export const mones = [
       recovery: 25,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/j8co6j583mxooau/Inflor%C3%ADn.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    image: "https://www.dropbox.com/s/j8co6j583mxooau/Inflor%C3%ADn.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/raqs2medsc3pacd/Plant.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/04utmi5l81sadri/Plant.png?raw=1",
   },
   {
     id: 59,
@@ -1055,12 +997,11 @@ export const mones = [
       recovery: 15,
       defense: 30,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/ifr4fjjnl3xtsqu/dragonburner.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    image: "https://www.dropbox.com/s/ifr4fjjnl3xtsqu/dragonburner.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/3wkx7jggr3wsm82/Rock.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/e1hrrcq6f98ns1d/Rock.png?raw=1",
   },
   {
     id: 60,
@@ -1073,12 +1014,11 @@ export const mones = [
       recovery: 35,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/1ttt87v6oydpkkw/Glacius.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/1ttt87v6oydpkkw/Glacius.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 61,
@@ -1091,12 +1031,11 @@ export const mones = [
       recovery: 15,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/6prneisjvlcts05/Frostfox.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/6prneisjvlcts05/Frostfox.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 62,
@@ -1109,12 +1048,11 @@ export const mones = [
       recovery: 15,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/3mofhoylxstxtum/Seaflow.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    image: "https://www.dropbox.com/s/3mofhoylxstxtum/Seaflow.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/52sav40lcgntelf/Ice.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/cqgyf2uniqb54ri/Ice.png?raw=1",
   },
   {
     id: 63,
@@ -1127,12 +1065,11 @@ export const mones = [
       recovery: 30,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/89ytfd0rbb6b9lh/Spark.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    image: "https://www.dropbox.com/s/89ytfd0rbb6b9lh/Spark.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/7spy5a7dns395a6/Electric.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m49e2a7n2wj8ard/Electric.png?raw=1",
   },
   {
     id: 64,
@@ -1145,12 +1082,11 @@ export const mones = [
       recovery: 10,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/qmy06veuvia2ll6/Splashy.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/qmy06veuvia2ll6/Splashy.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 65,
@@ -1163,12 +1099,11 @@ export const mones = [
       recovery: 10,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/rutyn6ru52bu5th/Splash.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/rutyn6ru52bu5th/Splash.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 66,
@@ -1181,12 +1116,11 @@ export const mones = [
       recovery: 20,
       defense: 10,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/7sa0xb0w99qqlnv/Waterlope.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    image: "https://www.dropbox.com/s/7sa0xb0w99qqlnv/Waterlope.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eq7dwo4ysl38ked/Water.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/m3qm95qv602maxl/Water.png?raw=1",
   },
   {
     id: 67,
@@ -1199,12 +1133,11 @@ export const mones = [
       recovery: 20,
       defense: 20,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/vahir6yhmkue1kk/Reycan.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/vahir6yhmkue1kk/Reycan.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 68,
@@ -1217,12 +1150,11 @@ export const mones = [
       recovery: 20,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
-    image:
-      "https://www.dropbox.com/s/e8wep98lp1358o5/Pyramoon.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    image: "https://www.dropbox.com/s/e8wep98lp1358o5/Pyramoon.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
   {
     id: 69,
@@ -1235,11 +1167,11 @@ export const mones = [
       recovery: 30,
       defense: 0,
     },
-    description: "",
+    description: "Esto es una descripcion de prueba, si quieres compartir una idea sobre este puchamon, no dudes en comentar en el canal 'EstraX4' :D",
     rarity: "orange",
     image:
       "https://www.dropbox.com/s/5xt17nc7qbigy6d/Aptenof%C3%A9nix.png?raw=1",
-    imageBack:
-      "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    imageBack: "https://www.dropbox.com/s/eakwg2e5jtpnmro/Fire.png?raw=1",
+    iconElement: "https://www.dropbox.com/s/vs0buyoy1ivaaui/Fire.png?raw=1",
   },
 ];
