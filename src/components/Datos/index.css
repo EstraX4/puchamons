@@ -1,366 +1,455 @@
 /*works janky on mobile :<*/
 .container {
-    position: relative;
-    width: 325px;
-    height: 90%;
-    transition: 200ms;
-  }
-  
-  .container:active {
-    width: 180px;
-    height: 245px;
-  }
-  
-  #card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    transition: 700ms;
-    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
-  }
-
-  .card-img-puchamon{
-    width: 100%;
-    height: 100%;
-    /* padding: 36px 10px; */
-    border-radius: 18px;
-    object-fit: cover;
-  }
-  
-  .container-content {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7vh;
-    height: calc(100vh - 104px - 7vh);
+  position: relative;
+  width: 325px;
+  height: 90%;
+  transition: 200ms;
 }
-  
 
-  .content-card-data {
-    width: 80%;
-    height: 100%;
-  }
-  .subtitle {
-    transform: translateY(160px);
-    color: rgb(134, 110, 221);
-    text-align: center;
-    width: 100%;
-  }
-  
-  .tracker:hover ~ #card .title {
-    opacity: 1;
-  }
-  
-  #prompt {
-    bottom: 8px;
-    left: 12px;
-    z-index: 20;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 300ms ease-in-out-out;
-    position: absolute;
-    max-width: 110px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .tracker {
-    position: absolute;
-    z-index: 200;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .tracker:hover {
-    cursor: pointer;
-  }
-  
-  .tracker:hover ~ #card #prompt {
-    opacity: 0;
-  }
-  
-  .tracker:hover ~ #card {
-    transition: 300ms;
-    filter: brightness(1.1);
-  }
-  
-  .container:hover #card::before {
-    transition: 200ms;
-    content: '';
-    opacity: 80%;
-  }
-  
-  .canvas {
-    perspective: 800px;
-    inset: 0;
-    z-index: 200;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "tr-1 tr-2 tr-3 tr-4 tr-5"
-      "tr-6 tr-7 tr-8 tr-9 tr-10"
-      "tr-11 tr-12 tr-13 tr-14 tr-15"
-      "tr-16 tr-17 tr-18 tr-19 tr-20"
-      "tr-21 tr-22 tr-23 tr-24 tr-25";
-  }
-  
-  #card::before {
-    content: '';
-    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
-    filter: blur(2rem);
-    opacity: 30%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    transition: 200ms;
-  }
-  
-  .tr-1 {
-    grid-area: tr-1;
-  }
-  
-  .tr-2 {
-    grid-area: tr-2;
-  }
-  
-  .tr-3 {
-    grid-area: tr-3;
-  }
-  
-  .tr-4 {
-    grid-area: tr-4;
-  }
-  
-  .tr-5 {
-    grid-area: tr-5;
-  }
-  
-  .tr-6 {
-    grid-area: tr-6;
-  }
-  
-  .tr-7 {
-    grid-area: tr-7;
-  }
-  
-  .tr-8 {
-    grid-area: tr-8;
-  }
-  
-  .tr-9 {
-    grid-area: tr-9;
-  }
-  
-  .tr-10 {
-    grid-area: tr-10;
-  }
-  
-  .tr-11 {
-    grid-area: tr-11;
-  }
-  
-  .tr-12 {
-    grid-area: tr-12;
-  }
-  
-  .tr-13 {
-    grid-area: tr-13;
-  }
-  
-  .tr-14 {
-    grid-area: tr-14;
-  }
-  
-  .tr-15 {
-    grid-area: tr-15;
-  }
-  
-  .tr-16 {
-    grid-area: tr-16;
-  }
-  
-  .tr-17 {
-    grid-area: tr-17;
-  }
-  
-  .tr-18 {
-    grid-area: tr-18;
-  }
-  
-  .tr-19 {
-    grid-area: tr-19;
-  }
-  
-  .tr-20 {
-    grid-area: tr-20;
-  }
-  
-  .tr-21 {
-    grid-area: tr-21;
-  }
-  
-  .tr-22 {
-    grid-area: tr-22;
-  }
-  
-  .tr-23 {
-    grid-area: tr-23;
-  }
-  
-  .tr-24 {
-    grid-area: tr-24;
-  }
-  
-  .tr-25 {
-    grid-area: tr-25;
-  }
-  
-  .tr-1:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-2:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-3:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-4:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-5:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .tr-6:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-7:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-8:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-9:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-10:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .tr-11:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-12:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-13:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-14:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-15:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .tr-16:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-17:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-18:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-19:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-20:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .tr-21:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
-  }
-  
-  .tr-22:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
-  }
-  
-  .tr-23:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  .tr-24:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
-  }
-  
-  .tr-25:hover ~ #card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
-  }
-  
-  .noselect {
-    -webkit-touch-callout: none;
-     /* iOS Safari */
-    -webkit-user-select: none;
-     /* Safari */
-     /* Konqueror HTML */
-    -moz-user-select: none;
-     /* Old versions of Firefox */
-    -ms-user-select: none;
-     /* Internet Explorer/Edge */
-    user-select: none;
-     /* Non-prefixed version, currently
+.container:active {
+  width: 180px;
+  /* padding: 6em; */
+  height: 245px;
+}
+
+#card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 700ms;
+  background: linear-gradient(
+    43deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 46%,
+    rgb(255, 204, 112) 100%
+  );
+}
+
+.card-img-puchamon {
+  width: 100%;
+  height: 100%;
+  /* padding: 36px 10px; */
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.container-content {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  height: calc(100vh - 104px - 2vh);
+}
+
+.content-card-data {
+  display: flex;
+  width: 33%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-panel-data {
+  display: flex;
+  width: 50%;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.content-text-panel-data {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 18%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid #fff 0.1px;
+  text-shadow: 3px 0px 3px black;
+  flex-wrap: wrap;
+}
+
+.bar-data {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.content-text-panel-data .name-panel {
+}
+
+.content-bar-data {
+}
+
+.barra-datos-life {
+  height: 100%;
+  background: linear-gradient(90deg, #dcffca 0%, #61ff00 100%);
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.barra-datos-attack {
+  height: 100%;
+  background: linear-gradient(90deg, #FFCACA 0%, #FF0000 100%);
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.barra-datos-recovery {
+  height: 100%;
+  background: linear-gradient(90deg, #ffe49d 0%, #ffb800 100%);
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.barra-datos-energy {
+  height: 100%;
+  background: linear-gradient(90deg, #caf9ff 0%, #00d1ff 100%);
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.barra-datos-defense {
+  height: 100%;
+  background: linear-gradient(90deg, #E0BBA5 0%, #B84200 100%);
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.subtitle {
+  transform: translateY(160px);
+  color: rgb(134, 110, 221);
+  text-align: center;
+  width: 100%;
+}
+
+.tracker:hover ~ #card .title {
+  opacity: 1;
+}
+
+#prompt {
+  bottom: 8px;
+  left: 12px;
+  z-index: 20;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 300ms ease-in-out-out;
+  position: absolute;
+  max-width: 110px;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 1px 3px black;
+}
+
+.tracker {
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+}
+
+.tracker:hover {
+  cursor: pointer;
+}
+
+.tracker:hover ~ #card #prompt {
+  opacity: 0;
+}
+
+.tracker:hover ~ #card {
+  transition: 300ms;
+  filter: brightness(1.1);
+}
+
+.container:hover #card::before {
+  transition: 200ms;
+  content: "";
+  opacity: 80%;
+}
+
+.canvas {
+  perspective: 800px;
+  inset: 0;
+  z-index: 200;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "tr-1 tr-2 tr-3 tr-4 tr-5"
+    "tr-6 tr-7 tr-8 tr-9 tr-10"
+    "tr-11 tr-12 tr-13 tr-14 tr-15"
+    "tr-16 tr-17 tr-18 tr-19 tr-20"
+    "tr-21 tr-22 tr-23 tr-24 tr-25";
+}
+
+#card::before {
+  content: "";
+  background: linear-gradient(
+    43deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 46%,
+    rgb(255, 204, 112) 100%
+  );
+  filter: blur(2rem);
+  opacity: 30%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: 200ms;
+}
+
+.tr-1 {
+  grid-area: tr-1;
+}
+
+.tr-2 {
+  grid-area: tr-2;
+}
+
+.tr-3 {
+  grid-area: tr-3;
+}
+
+.tr-4 {
+  grid-area: tr-4;
+}
+
+.tr-5 {
+  grid-area: tr-5;
+}
+
+.tr-6 {
+  grid-area: tr-6;
+}
+
+.tr-7 {
+  grid-area: tr-7;
+}
+
+.tr-8 {
+  grid-area: tr-8;
+}
+
+.tr-9 {
+  grid-area: tr-9;
+}
+
+.tr-10 {
+  grid-area: tr-10;
+}
+
+.tr-11 {
+  grid-area: tr-11;
+}
+
+.tr-12 {
+  grid-area: tr-12;
+}
+
+.tr-13 {
+  grid-area: tr-13;
+}
+
+.tr-14 {
+  grid-area: tr-14;
+}
+
+.tr-15 {
+  grid-area: tr-15;
+}
+
+.tr-16 {
+  grid-area: tr-16;
+}
+
+.tr-17 {
+  grid-area: tr-17;
+}
+
+.tr-18 {
+  grid-area: tr-18;
+}
+
+.tr-19 {
+  grid-area: tr-19;
+}
+
+.tr-20 {
+  grid-area: tr-20;
+}
+
+.tr-21 {
+  grid-area: tr-21;
+}
+
+.tr-22 {
+  grid-area: tr-22;
+}
+
+.tr-23 {
+  grid-area: tr-23;
+}
+
+.tr-24 {
+  grid-area: tr-24;
+}
+
+.tr-25 {
+  grid-area: tr-25;
+}
+
+.tr-1:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-2:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-3:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-4:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-5:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-6:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-7:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-8:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-9:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-10:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-11:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-12:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-13:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-14:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-15:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(0deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-16:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-17:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-18:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-19:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-20:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.tr-21:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
+}
+
+.tr-22:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
+}
+
+.tr-23:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.tr-24:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
+}
+
+.tr-25:hover ~ #card {
+  transition: 125ms ease-in-out;
+  transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                       supported by Chrome, Edge, Opera and Firefox */
-  }
+}

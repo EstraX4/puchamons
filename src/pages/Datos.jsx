@@ -56,6 +56,53 @@ export default function Datos() {
           </div>
         </div>
       </div>
+      <div className="content-panel-data">
+        <div className="content-text-panel-data">
+          <h1 className="name-panel">{puchamon.name}</h1>
+        </div>
+        <div className="content-bar-data">
+          <div className="content-data">
+            <div className="bar-data">
+              <div
+                className="barra-datos-life"
+                style={{ width: `${puchamon?.stats?.life / 5}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="content-data">
+            <div className="bar-data">
+              <div
+                className="barra-datos-attack"
+                style={{ width: `${puchamon?.stats?.attack / 5}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="content-data">
+            <div className="bar-data">
+              <div
+                className="barra-datos-recovery"
+                style={{ width: `${puchamon?.stats?.recovery / 5}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="content-data">
+            <div className="bar-data">
+              <div
+                className="barra-datos-energy"
+                style={{ width: `${puchamon?.stats?.energy / 5}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="content-data">
+            <div className="bar-data">
+              <div
+                className="barra-datos-defense"
+                style={{ width: `${puchamon?.stats?.defense / 5}%` }}
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
