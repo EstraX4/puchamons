@@ -585,7 +585,7 @@
   .container-content {
     justify-content: space-around;
     height: calc(100vh - 104px - -5vh);
-}
+  }
 }
 
 /* Estilos para dispositivos con ancho mayor a 768px y menor a 1024px */
@@ -597,7 +597,7 @@
   .container-content {
     justify-content: space-around;
     height: calc(100vh - 104px - -5vh);
-}
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1919px) {
@@ -608,7 +608,10 @@
   .container-content {
     justify-content: space-around;
     height: calc(100vh - 104px - -5vh);
-}
+  }
+  .content-descAelement .description {
+    font-size: 20px;
+  }
 }
 
 /* Estilos para dispositivos con ancho mayor a 1024px */
@@ -620,5 +623,9 @@
   .container-content {
     justify-content: space-around;
     height: calc(100vh - 104px - -5vh);
-}
+  }
+
+  .content-descAelement .description {
+    font-size: 29px;
+  }
 }
