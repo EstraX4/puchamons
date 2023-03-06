@@ -610,8 +610,8 @@
     height: calc(100vh - 104px - -5vh);
   }
   .content-descAelement .description {
-    font-size: 20px;
-  }
+    font-size: 12px;
+}
 }
 
 /* Estilos para dispositivos con ancho mayor a 1024px */
