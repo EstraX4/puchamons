@@ -160,7 +160,6 @@
   padding: 0 2em;
 }
 
-
 .subtitle {
   transform: translateY(160px);
   color: rgb(134, 110, 221);
@@ -498,7 +497,7 @@
   color: #ffce44;
 }
 
-.content-descAelement{
+.content-descAelement {
   display: flex;
   align-items: flex-start;
   padding: 0 3em;
@@ -515,4 +514,111 @@
 
 .content-descAelement .element {
   width: 23%;
+}
+
+@media (max-width: 490px) {
+  .container-content {
+    flex-direction: column;
+  }
+
+  .content-panel-data {
+    display: flex;
+    width: 90%;
+    height: 68%;
+  }
+
+  .content-card-data {
+    display: flex;
+    width: 51%;
+  }
+
+  .content-text-panel-data .name-panel {
+    font-size: 17px;
+  }
+
+  .bar-data {
+    width: 100%;
+    height: 7px;
+  }
+  .content-data-name {
+    font-size: 11px;
+    height: 19px;
+  }
+
+  .content-data-prev {
+    font-size: 11px;
+    height: 19px;
+  }
+  .content-data {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 0 0em;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    align-items: center;
+  }
+
+  .content-bar-data {
+    padding: 0;
+    padding-bottom: 0;
+  }
+
+  .content-descAelement {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5em 0.9em;
+    gap: 15px;
+  }
+
+  .content-descAelement .description {
+    font-size: 7px;
+  }
+  .container-content {
+    width: 100%;
+    height: 100vh;
+    padding: 1em 0;
+  }
+}
+/* Estilos para dispositivos con ancho menor a 768px */
+@media (min-width: 490px) and (max-width: 896px) {
+  .container-content {
+    justify-content: space-around;
+    height: calc(100vh - 104px - -5vh);
+}
+}
+
+/* Estilos para dispositivos con ancho mayor a 768px y menor a 1024px */
+@media (min-width: 667px) and (max-width: 1023px) {
+  .container {
+    position: relative;
+    width: 618px;
+  }
+  .container-content {
+    justify-content: space-around;
+    height: calc(100vh - 104px - -5vh);
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .container {
+    position: relative;
+    width: 618px;
+  }
+  .container-content {
+    justify-content: space-around;
+    height: calc(100vh - 104px - -5vh);
+}
+}
+
+/* Estilos para dispositivos con ancho mayor a 1024px */
+@media (min-width: 1920px) {
+  .container {
+    position: relative;
+    width: 618px;
+  }
+  .container-content {
+    justify-content: space-around;
+    height: calc(100vh - 104px - -5vh);
+}
 }

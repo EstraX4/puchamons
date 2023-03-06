@@ -27,7 +27,7 @@
 }
 
 .name-section-enlace:hover {
-  color: #71AAFF;
+  color: #71aaff;
 }
 
 .desactivado {
@@ -63,7 +63,7 @@
 
 .padding-svg {
   padding: 0 0 0.3em 0.4em;
-    font-size: 52px;
+  font-size: 52px;
 }
 
 .svg-chat-icon {
@@ -83,4 +83,200 @@
   justify-content: center;
   align-items: center;
   margin: 1em 0 0em 0;
+}
+
+@media (max-width: 490px) {
+  /* Catalogo */
+
+  .container-Navbar {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .panel-container {
+    width: 50%;
+    padding: 0 0.5em;
+    gap: 1.4em;
+  }
+
+  .panel-section {
+    display: flex;
+    width: 10%;
+    align-items: center;
+  }
+
+  .name-section {
+    display: flex;
+    padding: 4px 0px;
+    margin: 0;
+    font-size: 6px;
+    align-items: center;
+  }
+
+  .name-section-enlace {
+    text-decoration: none;
+    color: #fff;
+    width: 123%;
+  }
+
+  .barra-section {
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0;
+  }
+
+  .chat-container {
+    height: 25px;
+    padding: 0.2em;
+  }
+
+  .svg-chat {
+    width: 24px;
+  }
+
+  .area-text {
+    width: 10px;
+  }
+}
+
+/* Estilos para dispositivos con ancho menor a 768px */
+@media (min-width: 490px) and (max-width: 896px) {
+  .name-section {
+    padding: 0px 0px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .panel-container {
+    width: 50%;
+    padding: 0 0.5em;
+    gap: 3em;
+  }
+
+  .panel-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .panel-container {
+    width: 41%;
+    padding: 0 0.5em;
+    gap: 0;
+  }
+
+  .barra-section {
+    opacity: 0;
+  }
+
+  .chat-container {
+    height: 23px;
+    padding: 0.6em;
+}
+
+  .svg-chat {
+    width: 38px;
+  }
+
+  .area-text {
+    width: 10px;
+  }
+
+  .barra-section {
+    opacity: 0;
+    font-size: 16px;
+  }
+}
+
+/* Estilos para dispositivos con ancho mayor a 768px y menor a 1024px */
+@media (min-width: 667px) and (max-width: 1023px) {
+  .name-section {
+    padding: 0px 0px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .panel-container {
+    width: 50%;
+    padding: 0 0.5em;
+    gap: 3em;
+  }
+
+  .panel-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .panel-container {
+    width: 41%;
+    padding: 0 0.5em;
+    gap: 0;
+  }
+
+  .barra-section {
+    opacity: 0;
+  }
+
+  .chat-container {
+    height: 23px;
+    padding: 0.6em;
+}
+
+  .svg-chat {
+    width: 38px;
+  }
+
+  .area-text {
+    width: 10px;
+  }
+
+  .barra-section {
+    opacity: 0;
+    font-size: 16px;
+  }
+}
+
+/* Estilos para dispositivos con ancho mayor a 1024px */
+@media (min-width: 1024px) {
+  .name-section {
+    padding: 0px 0px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .panel-container {
+    width: 50%;
+    padding: 0 0.5em;
+    gap: 3em;
+  }
+
+  .panel-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .panel-container {
+    width: 41%;
+    padding: 0 0.5em;
+    gap: 0;
+  }
+
+  .barra-section {
+    opacity: 0;
+  }
+
+  .chat-container {
+    height: 23px;
+    padding: 0.6em;
+}
+
+  .svg-chat {
+    width: 38px;
+  }
+
+  .area-text {
+    width: 10px;
+  }
+
+  .barra-section {
+    opacity: 0;
+    font-size: 16px;
+  }
 }
